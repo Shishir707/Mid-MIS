@@ -22,6 +22,8 @@ function addToCart2(){
 }
 
 function amount(){
-    var price = document.getElementById("price");
-    document.getElementById("fare").innerText=price;
+    var old =parseFloat((document.getElementById("price").innerText));
+    if (old==00){
+        alert("Please Choose at least one product.")
+    }
 }

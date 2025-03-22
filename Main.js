@@ -20,3 +20,8 @@ function addToCart2(){
     document.getElementById("price").innerText=newPrice;
     alert("Bombay Chanachur was added Successfully!.");
 }
+
+function amount(){
+    var price = document.getElementById("price");
+    document.getElementById("fare").innerText=price;
+}

@@ -3,15 +3,20 @@ function showAlert(){
 }
 
 function addToCart1(){
-    alert("Pran Mango was added Successfully!.");
+    var text="You have to pay Tk. BDT:";
     var old =parseFloat((document.getElementById("price").innerText));
     var newPrice = old + 50;
+    document.getElementById("text").innerText=text;
     document.getElementById("price").innerText=newPrice;
+    alert("Pran Mango was added Successfully!.");
     
 }
 
 function addToCart2(){
-    var text = 75;
-    document.getElementById("price").innerText=text;
+    var text="You have to pay Tk. BDT:";
+    var old =parseFloat((document.getElementById("price").innerText));
+    var newPrice = old + 75;
+    document.getElementById("text").innerText=text;
+    document.getElementById("price").innerText=newPrice;
     alert("Bombay Chanachur was added Successfully!.");
 }
